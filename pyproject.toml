@@ -1,0 +1,11 @@
+[project]
+name = "hallucinationbreaker"
+version = "0.1.0"
+description = "TensorFlow-based hallucination detector and regeneration agent for LLMs"
+authors = [{ name = "Justin Whittecar" }]
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = ["tensorflow", "openai"]
+
+[project.urls]
+Homepage = "https://github.com/JustinWhittecar/HallucinationBreaker"
